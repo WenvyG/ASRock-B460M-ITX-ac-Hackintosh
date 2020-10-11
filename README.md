@@ -43,7 +43,7 @@
   
 - EFI下载
   
-  - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
+  - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
 
 - 更新日志  
   
@@ -52,25 +52,29 @@
 ## 正常工作
 
 - Intel核心显卡
+- AMD Redeon RX570（已在`config.plist`中注入Mac的`Redeon Pro RX575X`的驱动信息
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
-- 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases）
+- 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)）
 - USB定制
 - 声卡
 - 有线网卡（Intel I219V12 PCI Express Gigabit Ethernet）
 - `OpenCore`下`NVRAM`正常，可以使用`Boot Camp`在macOS和Windows10之间自由切换
 
-鸣谢
+## 不正常工作
+
+- 任何问题可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中跟我反馈。
+
+## 鸣谢
 
 - 感谢[Apple](https://www.apple.com/cn/)的macOS
 - 感谢 [Acidanthera](https://github.com/acidanthera) 提供 [AppleALC](https://github.com/acidanthera/AppleALC)，[Lilu](https://github.com/acidanthera/Lilu)，[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。
-- 感谢 [apianti](https://sourceforge.net/u/apianti)，[blackosx](https://sourceforge.net/u/blackosx)，[blusseau](https://sourceforge.net/u/blusseau)，[dmazar](https://sourceforge.net/u/dmazar) 和 [slice2009](https://sourceforge.net/u/slice2009) 提供 [Clover](https://github.com/CloverHackyColor/CloverBootloader)。
 - 感谢 [daliansky](https://github.com/daliansky) 提供[macOS Catalina镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
 - 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
+- 感谢[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 
 # 注：
 
 - **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同机型用户，需要自己修改`config.plist`的中的三码。**
 
-- **关于关闭`CFGLock`，可在远景论坛自行搜索` "联想"、”解锁CFG“`。**
-
   
+
