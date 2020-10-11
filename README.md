@@ -43,7 +43,11 @@
   
 - EFI下载
   
+<<<<<<< Updated upstream
   - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
+=======
+  - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/releases)
+>>>>>>> Stashed changes
 
 - 更新日志  
   
@@ -52,7 +56,11 @@
 ## 正常工作
 
 - Intel核心显卡
+<<<<<<< Updated upstream
 - AMD Redeon RX570（已在`config.plist`中注入Mac的`Redeon Pro RX575X`的驱动信息
+=======
+- AMD Redeon RX570（已注入正版Mac的`Redeon Pro 575X`驱动信息）
+>>>>>>> Stashed changes
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
 - 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)）
 - USB定制
@@ -62,7 +70,11 @@
 
 ## 不正常工作
 
+<<<<<<< Updated upstream
 - 任何问题可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中跟我反馈。
+=======
+有任何问题可以在[Issues](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/issues)
+>>>>>>> Stashed changes
 
 ## 鸣谢
 
