@@ -53,7 +53,7 @@
 
 - Intel核心显卡
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
-- 显示器亮度调节（使用MonitorControl）
+- 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases）
 - USB定制
 - 声卡
 - 有线网卡（Intel I219V12 PCI Express Gigabit Ethernet）
