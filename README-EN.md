@@ -15,6 +15,7 @@
 |    Monitor     |                    ViewSonic VX2478-4K-HD                    |
 |     Audio      |                Realtek ALC887  AppleALC ID=21                |
 | Wireless Card  |                         BCM94360CS2                          |
+|      Case      |                         METALFISH S3                         |
 
 ## Situation of EFI
 
@@ -32,7 +33,7 @@
 
 - ### EFI
   
-  - [Releases](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/releases)
+  - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/releases)
 
   ### Changelog
   
@@ -41,8 +42,9 @@
 ## What works:
 
 - Intel UHD Graphins 620
+- AMD Redeon RX570
 - Wi-Fi and Bluetooth（using `BCM94360CS2`）
-- Monitor (Using MonitorControl)
+- Monitor (Using [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases))
 - USB
 - Audio
 - Intel I219V12 PCI Express Gigabit Ethernet
@@ -56,6 +58,6 @@
 
 - Thanks to [Apple](https://www.apple.com/cn/) for providing macOS
 - Thanks to [Acidanthera](https://github.com/acidanthera)  for providing  [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
-- Thanks to [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar) and [slice2009](https://sourceforge.net/u/slice2009)  for providing  [Clover](https://github.com/CloverHackyColor/CloverBootloader).
 - Thanks to [corpnewt](https://github.com/corpnewt) providing [gibMacOS](https://github.com/corpnewt/gibMacOS) and [ProperTree](https://github.com/corpnewt/ProperTree).
+- Thanks to [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases).
 
