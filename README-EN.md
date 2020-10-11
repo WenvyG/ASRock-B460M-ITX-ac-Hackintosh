@@ -11,7 +11,7 @@
 |      CPU       |                 Intel Core i3 - 10100(4C8T)                  |
 |     Memory     |                      2*8GB DDR4 2666MHz                      |
 |      SSD       |                        Samsung 970EVO                        |
-|    Graphics    |                    Intel UHD Graphics 620                    |
+|    Graphics    |           AMD Redeon RX570/Intel UHD Graphics 620            |
 |    Monitor     |                    ViewSonic VX2478-4K-HD                    |
 |     Audio      |                Realtek ALC887  AppleALC ID=21                |
 | Wireless Card  |                         BCM94360CS2                          |
@@ -52,7 +52,7 @@
 
 ## What not woks
 
-- Any other issues you may have can be feed back to me in [Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues).
+- Any other issues you may have can be feed back to me in [Issues](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/issues).
 
 ## Credits
 
