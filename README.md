@@ -21,8 +21,12 @@
 
 - `OpenCore`  OC目前版本0.6.2，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
   
-    ###### 注：`（新版OC 0.6.2已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+- `EFI-iGPU` 在机器只使用核显进行视频输出时使用.
   
+- `EFI-dGPU-RX570` 在核显只用于计算而视频输出由独显负责时使用。 而且在`DeviceProperties` -->`PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)`下加入了` iMac17`中`Radeon Pro 575X`的信息，当然你也可以删除它。
+
+    ###### 注：`（新版OC 0.6.2已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+
 - ### 安装前准备
   
   - 开机按`F2`或`Del`进入`BIOS`
@@ -44,6 +48,7 @@
 - EFI下载
   
   - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
+  
 - 更新日志  
   
   - [Changelog](Changelog.md)
