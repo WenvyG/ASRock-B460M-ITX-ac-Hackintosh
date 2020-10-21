@@ -65,7 +65,7 @@
 ## 正常工作
 
 - Intel核心显卡
-- AMD Redeon RX570（已在`config.plist`中注入Mac的`Redeon Pro RX575X`的驱动信息
+- AMD Redeon RX570
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
 - 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)）
 - USB定制
