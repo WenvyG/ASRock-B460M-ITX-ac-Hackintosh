@@ -7,7 +7,7 @@
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 |   主板   |                      华擎 B460M-ITX/ac                       |
-| 支持系统 | macOS Catalina 10.15.x / Windows 10（使用Boot Camp）/ macOS Big Sur 11 |
+| 支持系统 | macOS Catalina 10.15.x （未测试）/ Windows 10（使用Boot Camp）/ macOS Big Sur 11 Beta |
 |  处理器  |                    英特尔 酷睿 i3 - 10100                    |
 |   内存   |                          协徳 8GB*2                          |
 |   硬盘   |                         三星 970EVO                          |
@@ -21,16 +21,19 @@
 
 ## 引导概况
 
-- `OpenCore`  OC目前版本0.6.2，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+#### `OpenCore`  OC目前版本0.6.2，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+
+- `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
   
-- `EFI-iGPU` 在机器只使用核显进行视频输出时使用.
-  
-- `EFI-dGPU` 在核显只用于计算而视频输出由独显负责时使用。
+- `EFI-dGPU` 在核显只用于计算，而视频输出由独显负责时使用，**此时核显不会具有视频输出功能。**
 
     - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext/Contents)，理论上会有更好的性能表现。**不加也可以正常使用**。
     - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
 
-    ###### 注：`（新版OC 0.6.2已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`
+    ##### 注：
+
+    -  **`（新版OC 0.6.2已经支持安装macOS Big Sur，但由于尝试安装BETA版系统所造成的数据丢失或其他一切损失,本人不负任何责任）`**
+    - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。**Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
 - ### 安装前准备
   
@@ -38,8 +41,9 @@
   - 设置 `Secure Boot` 为 `Disabled`;
   - 设置`CSM`为`Disable`
   - 设置`CFGLock`为`Disable`
-  - `F10` 保存设置并重启
-
+  - 设置`XHCI Hand Off`为`Enable`
+- `F10` 保存设置并重启
+  
 - ### 安装后操作
 
   - 安装好系统，进入系统
@@ -84,6 +88,4 @@
 # 注：
 
 - **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同机型用户，需要自己修改`config.plist`的中的三码。**
-
-  
 
