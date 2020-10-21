@@ -20,7 +20,9 @@ OC 0.6.2
 
 OC 0.6.2
 
-优化`EFI-dGPU`配置，删除RX570属性，改为推荐使用[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext/Contents)，使之可以适用范围更广。具体看README。（1.2）
+优化`EFI-dGPU`配置，删除RX570属性，改为推荐使用[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext/Contents)，使之可以适用范围更广。具体在[README](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh#引导概况)了解。（1.2）
+
+Optimize `EFI-dGPU`'s configuration to make it more applicable. Get more details from [README](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh#引导概况).
 
 `EFI-iGPU` used when the Desktop iGPU is used to drive a display.
 
