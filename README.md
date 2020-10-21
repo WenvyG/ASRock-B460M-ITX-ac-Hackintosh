@@ -27,7 +27,7 @@
   
 - `EFI-dGPU` 在核显只用于计算，而视频输出由独显负责时使用，**此时核显不会具有视频输出功能。**
 
-    - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext/Contents)，理论上会有更好的性能表现。**不加也可以正常使用**。
+    - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext)，理论上会有更好的性能表现。**不加也可以正常使用**。
     - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
 
     ##### 注：
@@ -41,7 +41,9 @@
   - 设置 `Secure Boot` 为 `Disabled`;
   - 设置`CSM`为`Disable`
   - 设置`CFGLock`为`Disable`
+  - 设置`VT-d`为`Disable`
   - 设置`XHCI Hand Off`为`Enable`
+  - 设置`Above 4GB Decoding`为`Enable`
 - `F10` 保存设置并重启
   
 - ### 安装后操作
