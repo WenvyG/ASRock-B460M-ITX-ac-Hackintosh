@@ -7,7 +7,7 @@
 | Specifications |                            Detail                            |
 | :------------: | :----------------------------------------------------------: |
 |      M/B       |                     ASRock-B460M-ITX/ac                      |
-|     System     | macOS Catalina 10.15.x / Windows10 (Boot Camp) / macOS Big Sur 11 |
+|     System     | macOS Catalina 10.15.x / Windows10 (Boot Camp) / macOS Big Sur 11 Beta |
 |      CPU       |                 Intel Core i3 - 10100(4C8T)                  |
 |     Memory     |                      2*8GB DDR4 2666MHz                      |
 |      SSD       |                        Samsung 970EVO                        |
@@ -23,18 +23,31 @@
 
 - `EFI-iGPU` used when the Desktop iGPU is used to drive a display.
 
-- `EFI-dGPU-RX570` used when the Desktop iGPU is only used for computing tasks and doesn't drive a display. It has the real Mac's dGPU-Radeon Pro 575X information under `DeviceProperties` -->`PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)`. It might make my RX570 perform better, but you can also delete it without fear and use other graphics cards.
+- `EFI-dGPU` used when the Desktop iGPU is only used for computing tasks and doesn't drive a display. 
 
-  ##### PS. OC 0.6.2 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. `However, it should be noted that I am not responsible for any data loss or all other losses caused by trying to install the BETA version of the software on your computer. `
+  - If you are using AMD RX500 series graphics CARDS (such as RX580, RX570, RX560, etc.), you can add the [`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext) in `EFI` --`OC`--`Kexts`, which will theoretically make the graphics card perform better. **And it can be used normally without it.**
+  - If you are using Navi core RX5000 series graphics CARDS (such as RX5700(XT), RX5600(XT), RX5500(XT)), you need to include the **agdpmod=pikera** parameter under `NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args` to prevent the screen from going black during boot.
+
+  ##### PS. 
+
+  ##### 1. OC 0.6.2 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. `However, it should be noted that I am not responsible for any data loss or all other losses caused by trying to install the BETA version of the software on your computer. `
+
+  #### 2. I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.
 
 - ### BIOS Settings
   
-  #### Disable
+  #### Enable 
+  
+  - `XHCI Hand Off`
+  - `Above 4GB Decoding`
+  
+#### Disable
   
   - `Secure Boot` 
   - `CSM`
   - `CFG Lock` (recommended)
-
+  - `VT-d`
+  
 - ### EFI
   
   - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/releases)
@@ -67,5 +80,5 @@
 
 
 
-# This README may not go into details, if you have any questions, just ask me.
+# This README may be lacking in details and contains errors. If you have any questions, please feel free to ask me.
 
