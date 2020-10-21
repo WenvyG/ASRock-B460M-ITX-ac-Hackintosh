@@ -41,7 +41,7 @@
   - `XHCI Hand Off`
   - `Above 4GB Decoding`
   
-####  Disable
+  ####  Disable
   
   - `Secure Boot` 
   - `CSM`
