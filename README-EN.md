@@ -77,7 +77,7 @@
 
 ## Credits
 
-- Thanks to [Apple](https://www.apple.com/cn/) for providing macOS
+- Thanks to [Apple](https://www.apple.com) for providing macOS
 - Thanks to [Acidanthera](https://github.com/acidanthera)  for providing  [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - Thanks to [corpnewt](https://github.com/corpnewt) providing [gibMacOS](https://github.com/corpnewt/gibMacOS) and [ProperTree](https://github.com/corpnewt/ProperTree).
 - Thanks to [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases).
