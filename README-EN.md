@@ -19,6 +19,8 @@
 
 ![1](IMG/MAC.png)
 
+<img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
+
 ## Situation of EFI
 
 - `OpenCore`   OpenCore' s version is 0.6.2, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
