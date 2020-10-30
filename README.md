@@ -19,7 +19,7 @@
 
 #### ![概况](IMG/MAC.png)
 
-![USB](IMG/USB.png)
+<img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
 
 ## 引导概况
 
