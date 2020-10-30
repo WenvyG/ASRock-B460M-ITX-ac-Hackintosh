@@ -17,6 +17,8 @@
 | Wireless Card  |                         BCM94360CS2                          |
 |      Case      |                         METALFISH S3                         |
 
+![1](IMG/MAC.png)
+
 ## Situation of EFI
 
 - `OpenCore`   OpenCore' s version is 0.6.2, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update the latest version of OC in a week after it is released.
