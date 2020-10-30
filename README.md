@@ -19,6 +19,8 @@
 
 #### ![概况](IMG/MAC.png)
 
+![USB](IMG/USB.png)
+
 ## 引导概况
 
 #### `OpenCore`  OC目前版本0.6.2，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
