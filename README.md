@@ -17,7 +17,7 @@
 |   网卡   |                      更换为BCM94360CS2                       |
 |   机箱   |                           酷鱼 S3                            |
 
-#### * 系统截图以后再补。
+#### ![概况](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/blob/main/IMG/MAC.png)
 
 ## 引导概况
 
