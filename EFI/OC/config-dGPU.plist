@@ -610,11 +610,10 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
+			<string>ExFatDxe.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
-			<string>OpenUsbKbDxe.efi</string>
-			<string>UsbMouseDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
