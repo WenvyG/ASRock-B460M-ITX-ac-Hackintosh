@@ -28,3 +28,17 @@ Optimize `EFI-dGPU`'s configuration to make it more applicable. Get more details
 
 `EFI-dGPU` used when the Desktop iGPU is only used for computing tasks and doesn't drive a display.	
 
+# 2020.11.3
+
+OC 0.6.3
+
+OC 0.6.2 ---> 0.6.3
+
+AppleALC 1.5.3 ---> 1.5.4
+
+Lilu 1.4.8 ---> 1.4.9
+
+VirtualSMC 1.1.7 ---> 1.1.8
+
+Whatevergreen 1.4.3 --->1.4.4
+
