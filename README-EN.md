@@ -63,7 +63,7 @@
 ## What works:
 
 - Intel UHD Graphins 620
-- AMD Redeon RX570
+- AMD Radeon RX570
 - Wi-Fi and Bluetooth（using `BCM94360CS2`）
 - Monitor (Using [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases))
 - USB

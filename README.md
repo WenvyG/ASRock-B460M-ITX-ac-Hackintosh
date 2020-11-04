@@ -69,7 +69,7 @@
 ## 正常工作
 
 - Intel核心显卡
-- AMD Redeon RX570
+- AMD Radeon RX570
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
 - 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)）
 - USB定制
