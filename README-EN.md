@@ -73,7 +73,7 @@
 
 ## What not woks
 
-- Any other issues you may have can be feed back to me in [Issues](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/issues).
+- This EFI may have many shortcomings. So if you have any Questions or Suggestions for improvement, please discuss with me in the [Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues) and [Pull requests](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/pulls). I hope you and I can make it more and more perfect.
 
 ## Credits
 
