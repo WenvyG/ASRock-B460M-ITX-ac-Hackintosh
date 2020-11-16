@@ -55,7 +55,7 @@
 
 - 镜像下载
   
-  - [[**黑果小兵的部落阁**] :【黑果小兵】原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
+  - 通过[[**黑果小兵的部落阁**] 的原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
   - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
   
 - EFI下载
@@ -68,7 +68,7 @@
 
 ## 正常工作
 
-- Intel核心显卡
+- Intel核心显卡 UHD630
 - AMD Radeon RX570
 - Wi-Fi与蓝牙（已将原装的高通网卡替换为`BCM94360CS2`）
 - 显示器亮度调节（使用[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)）
