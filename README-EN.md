@@ -7,7 +7,7 @@
 | Specifications |                            Detail                            |
 | :------------: | :----------------------------------------------------------: |
 |      M/B       |                     ASRock-B460M-ITX/ac                      |
-|     System     | macOS Catalina 10.15.x / Windows10 (Boot Camp) / macOS Big Sur 11 Beta |
+|     System     | macOS Catalina 10.15.x / Windows10 (Boot Camp) / macOS Big Sur 11 |
 |      CPU       |                 Intel Core i3 - 10100(4C8T)                  |
 |     Memory     |                      2*8GB DDR4 2666MHz                      |
 |      SSD       |                        Samsung 970EVO                        |
