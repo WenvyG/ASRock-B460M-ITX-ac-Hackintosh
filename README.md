@@ -85,7 +85,7 @@
 
 - 感谢[Apple](https://www.apple.com/cn/)的macOS
 - 感谢 [Acidanthera](https://github.com/acidanthera) 提供 [AppleALC](https://github.com/acidanthera/AppleALC)，[Lilu](https://github.com/acidanthera/Lilu)，[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。
-- 感谢 [daliansky](https://github.com/daliansky) 提供[macOS Catalina镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
+- 感谢 [daliansky](https://github.com/daliansky) 提供[Apple macOS 镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
 - 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
 - 感谢[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 
