@@ -79,7 +79,7 @@
 
 ## 不正常工作
 
-- 这份EFI也许还有很多的不足，有任何问题或着改进建议都可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)和[Pull requests](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/pulls)中跟我反馈或交流😊😊😊😊😊，希望大家可以让其越来越完美。
+- 这份EFI也许还有很多的不足，有任何问题或着改进建议都可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中跟我反馈或交流😊😊😊😊😊，希望大家可以让其越来越完美。
 
 ## 鸣谢
 
