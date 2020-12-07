@@ -11,7 +11,7 @@
 |      CPU       |                 Intel Core i3 - 10100 (4C8T)                 |
 |     Memory     |                      2*8GB DDR4 2666MHz                      |
 |      SSD       |                        Samsung 970EVO                        |
-|    Graphics    |          AMD Radeon RX570 / Intel UHD Graphics 620           |
+|    Graphics    |          AMD Radeon RX570 / Intel UHD Graphics 630           |
 |    Monitor     |                    ViewSonic VX2478-4K-HD                    |
 |     Audio      |                Realtek ALC887  AppleALC ID=21                |
 | Wireless Card  |                         BCM94360CS2                          |
