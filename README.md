@@ -11,7 +11,7 @@
 |  处理器  |                    英特尔 酷睿 i3 - 10100                    |
 |   内存   |                   2*协徳 8GB DDR4 2666MHz                    |
 |   硬盘   |                         三星 970EVO                          |
-|   显卡   |       蓝宝石 Radeon RX570 4GB / Intel UHD Graphics 620       |
+|   显卡   |       蓝宝石 Radeon RX570 4GB / Intel UHD Graphics 630       |
 |  显示器  |                      优派 VX2478-4K-HD                       |
 |   声卡   |                Realtek ALC887  AppleALC ID=12                |
 |   网卡   |                      更换为BCM94360CS2                       |
