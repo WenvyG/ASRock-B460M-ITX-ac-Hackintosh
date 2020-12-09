@@ -23,7 +23,7 @@
 
 ## 引导概况
 
-#### `OpenCore`  OC目前版本0.6.3，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+#### `OpenCore`  OC目前版本0.6.4，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
   
@@ -34,18 +34,28 @@
 
     ##### 注：
 
-    -  **`新版OC 0.6.3已经支持安装最新版macOS Big Sur。`**
+    -  **`新版OC 0.6.4已经支持安装最新版macOS Big Sur。`**
     - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
 - ### 安装前准备
-  
+
   - 开机按`F2`或`Del`进入`BIOS`
-  - 设置 `Secure Boot` 为 `Disabled`;
-  - 设置`CSM`为`Disable`
-  - 设置`CFGLock`为`Disable`
-  - 设置`VT-d`为`Disable`
-  - 设置`XHCI Hand Off`为`Enable`
-  - 设置`Above 4GB Decoding`为`Enable`
+
+    - **`Disabled`:**
+
+      `Secure Boot`
+
+      `CSM`
+
+      `CFGLock`
+
+      `VT-d`
+
+    - **`Enable`:**
+
+      `XHCI Hand Off`
+
+      `Above 4GB Decoding`
 - `F10` 保存设置并重启
   
 - ### 安装后操作
@@ -91,5 +101,5 @@
 
 # 注：
 
-- **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同机型用户，需要自己修改`config.plist`的中的三码。**
+- **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同配置用户，EFI中的三码已被我删除，需要手动填写属于你自己的**
 

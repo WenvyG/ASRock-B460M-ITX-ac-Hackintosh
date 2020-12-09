@@ -53,3 +53,17 @@ Whatevergreen 1.4.3 --->1.4.4
 **`OC 0.6.3`**
 add EFI--OC-Drivers--ExFatDxe.efi
 
+# 2020.12.9
+
+**`OC 0.6.4`**
+
+OC 0.6.3 ---> 0.6.4
+
+AppleALC 1.5.4 ---> 1.5.5
+
+Lilu 1.4.9 ---> 1.5.0
+
+VirtualSMC 1.1.8 ---> 1.1.9
+
+Whatevergreen 1.4.4 --->1.4.5
+
