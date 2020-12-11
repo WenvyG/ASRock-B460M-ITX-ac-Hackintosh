@@ -34,8 +34,13 @@
 
     ##### 注：
 
-    -  **`新版OC 0.6.4已经支持安装最新版macOS Big Sur。`**
+    - **`新版OC 0.6.4已经支持安装最新版macOS Big Sur。`**
+
     - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
+
+    - 2020.12.9  得益于`OC 0.6.4`版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
+
+      ![Audio](IMG/Audio.png)
 
 - ### 安装前准备
 
