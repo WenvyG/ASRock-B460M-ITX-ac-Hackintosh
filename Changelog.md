@@ -53,6 +53,8 @@ Whatevergreen 1.4.3 --->1.4.4
 **`OC 0.6.3`**
 add EFI--OC-Drivers--ExFatDxe.efi
 
+
+
 # 2020.12.9
 
 **`OC 0.6.4`**
@@ -67,3 +69,16 @@ VirtualSMC 1.1.8 ---> 1.1.9
 
 Whatevergreen 1.4.4 --->1.4.5
 
+得益于OC对macOS新特性的适配，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
+
+
+
+# 2020.12.11
+
+**`OC 0.6.4`**
+
+Misc--Boot--PickerAttributes 1--->17
+
+Misc--Boot--PollAppleHotKeys False--->True
+
+OC 选择磁盘界面现在可以使用鼠标
