@@ -23,7 +23,7 @@
 
 ## 引导概况
 
-#### `OpenCore`  OC目前版本0.6.4，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+#### `OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
   
@@ -34,13 +34,15 @@
 
     ##### 注：
 
-    - **`新版OC 0.6.4已经支持安装最新版macOS Big Sur。`**
+    - **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
 
     - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
-    - 2020.12.9  得益于`OC 0.6.4`版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
+    - `2020.12.9`  得益于OC新版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
 
       ![Audio](IMG/Audio.png)
+      
+    - `2021.01.09` OC界面图标更新到 Big Sur 样式，若更喜欢旧版样式，则可以用本项目根目录下的[Image](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/Image)文件夹替换EFI -- OC -- Resources 下的Image文件夹，则可以换回旧版。
 
 - ### 安装前准备
 
