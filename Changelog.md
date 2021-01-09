@@ -82,3 +82,23 @@ Misc--Boot--PickerAttributes 1--->17
 Misc--Boot--PollAppleHotKeys False--->True
 
 OC 选择磁盘界面现在可以使用鼠标
+
+
+
+# 2021.01.09
+
+**`OC 0.6.5`**
+
+OC 0.6.4 ---> 0.6.5
+
+AppleALC 1.5.5 ---> 1.5.6
+
+CPUFriend 1.2.2 ---> 1.2.3
+
+IntelMausi 1.0.4 ---> 1.0.5
+
+NVMeFix 1.0.4 ---> 1.0.5
+
+Whatevergreen 1.4.4 --->1.4.5
+
+OC图形化界面图标更新到Big Sur样式。

@@ -25,7 +25,7 @@
 
 ## Overview
 
-- `OpenCore`   OpenCore' s version is 0.6.4, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update to the latest version of OC in a week after it is released.
+- `OpenCore`   OpenCore' s version is 0.6.5, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update to the latest version of OC in a week after it is released.
 
 - `EFI-iGPU` used when the Desktop iGPU is used to drive a display.
 
@@ -36,7 +36,7 @@
 
   ##### PS. 
 
-  ##### 1. `OC 0.6.4 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`
+  ##### 1. `OC 0.6.5 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`
 
   #### 2. 
 
