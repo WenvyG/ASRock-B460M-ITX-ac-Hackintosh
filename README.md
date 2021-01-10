@@ -7,7 +7,7 @@
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 |   主板   |                      华擎 B460M-ITX/ac                       |
-| 支持系统 | macOS Catalina 10.15.x （未测试）/ Windows 10（使用Boot Camp）/ macOS Big Sur 11 |
+| 支持系统 | macOS Catalina 10.15.7/ Windows 10（使用Boot Camp）/ macOS Big Sur 11 |
 |  处理器  |                    英特尔 酷睿 i3 - 10100                    |
 |   内存   |                   2*协徳 8GB DDR4 2666MHz                    |
 |   硬盘   |                         三星 970EVO                          |
