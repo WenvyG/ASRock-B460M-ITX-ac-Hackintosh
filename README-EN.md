@@ -38,9 +38,7 @@
 
   ##### 1. `OC 0.6.5 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`
 
-  #### 2. 
-
-  #### 3.I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.
+  #### 2.I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.
 
 - ### BIOS Settings
   
