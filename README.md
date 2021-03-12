@@ -74,7 +74,14 @@
 ### 安装后操作
 
 - 安装好系统，进入系统
-- 找到`终端`执行一下：`sudo spctl --master-disable`以允许打开第三方应用。
+
+- 找到`终端`执行一下：
+
+  ```shell
+  sudo spctl --master-disable
+  ```
+
+  以允许打开第三方应用。
 
 
 
