@@ -35,19 +35,17 @@
 
   - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
 
+- **注：**
+
+  - **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
+
+  - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
+
+  - `2020.12.9`  得益于OC新版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
+
+![Audio](IMG/Audio.png)
 
 
-### 注：
-
-- **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
-
-- **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
-
-- `2020.12.9`  得益于OC新版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
-
-  ![Audio](IMG/Audio.png)
-  
-- `2021.01.09` OC界面图标更新到 Big Sur 样式，若更喜欢旧版样式，则可以用本项目根目录下的[Image](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/Image)文件夹替换EFI -- OC -- Resources 下的Image文件夹，则可以换回旧版。
 
 
 
@@ -73,7 +71,7 @@
 
     `Above 4GB Decoding`
 
-`F10` 保存设置并重启
+- `F10` 保存设置并重启
 
 ### 安装后操作
 
