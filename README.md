@@ -21,9 +21,11 @@
 
 <img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
 
+
+
 ## 引导概况
 
-#### `OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+### `OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
   
@@ -32,7 +34,7 @@
     - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext)，理论上会有更好的性能表现。**不加也可以正常使用**。
     - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
 
-    ##### 注：
+    #### 注：
 
     - **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
 
@@ -43,6 +45,10 @@
       ![Audio](IMG/Audio.png)
       
     - `2021.01.09` OC界面图标更新到 Big Sur 样式，若更喜欢旧版样式，则可以用本项目根目录下的[Image](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/Image)文件夹替换EFI -- OC -- Resources 下的Image文件夹，则可以换回旧版。
+
+    
+
+    ## 安装
 
 - ### 安装前准备
 
@@ -63,6 +69,7 @@
       `XHCI Hand Off`
 
       `Above 4GB Decoding`
+  
 - `F10` 保存设置并重启
   
 - ### 安装后操作
@@ -70,20 +77,28 @@
   - 安装好系统，进入系统
   - 找到`终端`执行一下：`sudo spctl --master-disable`以允许打开第三方应用。
 
-- 镜像下载
   
+
+  ## 镜像及EFI相关：
+
+  ### 镜像下载：
+
   - 通过[[**黑果小兵的部落阁**] 的原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
   - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
-  
-- EFI下载
-  
+
+  ### EFI下载
+
   - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
-  
-- 更新日志  
-  
+
+  ### 更新日志  
+
   - [Changelog](Changelog.md)
 
-## 正常工作
+
+
+## 使用情况：
+
+### 正常工作
 
 - Intel核心显卡 UHD630
 - AMD Radeon RX570
@@ -94,9 +109,13 @@
 - 有线网卡（Intel I219V12 PCI Express Gigabit Ethernet）
 - `OpenCore`下`NVRAM`正常，可以使用`Boot Camp`在macOS和Windows10之间自由切换
 
-## 不正常工作
+### 不正常/不工作
 
 - 这份EFI也许还有很多的不足，有任何问题或着改进建议都可以在[Issues](https://github.com/WenvyG/Lenovo-ideapad-110-15IKB-Hackintosh/issues)中跟我反馈或交流😊😊😊😊😊，希望大家可以让其越来越完美。
+
+
+
+
 
 ## 鸣谢
 
@@ -106,7 +125,7 @@
 - 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
 - 感谢[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 
-# 注：
+## 注：
 
 - **我所分享的EFI引导文件的目标人群是拥有一定黑苹果基础的的同配置用户，EFI中的三码已被我删除，需要手动填写属于你自己的**
 
