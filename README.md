@@ -28,71 +28,74 @@
 ### `OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
-  
+
 - `EFI-dGPU` 在核显只用于计算，而视频输出由独显负责时使用，**此时核显不会具有视频输出功能。**
 
-    - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext)，理论上会有更好的性能表现。**不加也可以正常使用**。
-    - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
+  - 如果你是在使用AMD RX500系列显卡的话（如RX580、RX570、RX560等），可以在`EFI` --`OC`--`Kexts`下加入[`RadeonBoost.kext`](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/RadeonBoost.kext)，理论上会有更好的性能表现。**不加也可以正常使用**。
 
-    #### 注：
+  - 如果你在使用Navi核心的RX5000系列显卡（如RX5700(XT)、RX5600(XT)、RX5500(XT)），需要在`config.plist`的`NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args`中加入**agdpmod=pikera**，以防止在启动过程中黑屏。
 
-    - **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
 
-    - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
-    - `2020.12.9`  得益于OC新版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
+### 注：
 
-      ![Audio](IMG/Audio.png)
-      
-    - `2021.01.09` OC界面图标更新到 Big Sur 样式，若更喜欢旧版样式，则可以用本项目根目录下的[Image](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/Image)文件夹替换EFI -- OC -- Resources 下的Image文件夹，则可以换回旧版。
+- **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
 
-    
+- **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
-    ## 安装
+- `2020.12.9`  得益于OC新版本对于macOS新特性的支持，现在可以在`设置--声音--启动时播放声音`选择是否在启动时播放Mac灵魂的`Duang~`
 
-- ### 安装前准备
-
-  - 开机按`F2`或`Del`进入`BIOS`
-
-    - **`Disabled`:**
-
-      `Secure Boot`
-
-      `CSM`
-
-      `CFGLock`
-
-      `VT-d`
-
-    - **`Enable`:**
-
-      `XHCI Hand Off`
-
-      `Above 4GB Decoding`
+  ![Audio](IMG/Audio.png)
   
-- `F10` 保存设置并重启
-  
-- ### 安装后操作
+- `2021.01.09` OC界面图标更新到 Big Sur 样式，若更喜欢旧版样式，则可以用本项目根目录下的[Image](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh/tree/main/Image)文件夹替换EFI -- OC -- Resources 下的Image文件夹，则可以换回旧版。
 
-  - 安装好系统，进入系统
-  - 找到`终端`执行一下：`sudo spctl --master-disable`以允许打开第三方应用。
 
-  
 
-  ## 镜像及EFI相关：
+## 安装
 
-  ### 镜像下载：
+### 安装前准备
 
-  - 通过[[**黑果小兵的部落阁**] 的原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
-  - 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+- 开机按`F2`或`Del`进入`BIOS`
 
-  ### EFI下载
+  - **`Disabled`:**
 
-  - [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
+    `Secure Boot`
 
-  ### 更新日志  
+    `CSM`
 
-  - [Changelog](Changelog.md)
+    `CFGLock`
+
+    `VT-d`
+
+  - **`Enable`:**
+
+    `XHCI Hand Off`
+
+    `Above 4GB Decoding`
+
+`F10` 保存设置并重启
+
+### 安装后操作
+
+- 安装好系统，进入系统
+- 找到`终端`执行一下：`sudo spctl --master-disable`以允许打开第三方应用。
+
+
+
+## 镜像及EFI相关：
+
+### 镜像下载：
+
+- 通过[[**黑果小兵的部落阁**] 的原版镜像](https://blog.daliansky.net/categories/下载/镜像/)
+- 使用[**gibMacOS**](https://github.com/corpnewt/gibMacOS)
+
+### EFI下载
+
+- [Releases](https://github.com/WenvyG/ASRock-B460M-ITX-ac-Hackintosh)
+
+### 更新日志  
+
+- [Changelog](Changelog.md)
 
 
 
