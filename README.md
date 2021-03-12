@@ -17,13 +17,11 @@
 |   网卡   |                      更换为BCM94360CS2                       |
 |   机箱   |                           酷鱼 S3                            |
 
-#### ![概况](IMG/MAC.png)
+## 引导概况
+
+![概况](IMG/MAC.png)
 
 <img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
-
-
-
-## 引导概况
 
 ***`OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。***
 
