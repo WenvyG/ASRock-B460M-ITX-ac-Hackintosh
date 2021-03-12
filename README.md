@@ -25,7 +25,7 @@
 
 ## 引导概况
 
-### `OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。
+***`OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。***
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
 
