@@ -39,7 +39,7 @@
 
   - If you are using Navi core RX5000 series graphics CARDS (such as RX5700(XT), RX5600(XT), RX5500(XT)), you need to include the **agdpmod=pikera** parameter under `NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args` to prevent the screen from going black during boot.
 
-- PS. 
+- **PS.** 
 
   - `OC 0.6.5 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`
 
