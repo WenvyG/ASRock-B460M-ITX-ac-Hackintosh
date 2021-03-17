@@ -23,7 +23,9 @@
 
 <img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
 
-***`OpenCore`  OC目前版本0.6.5，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。***
+![OC-GUI](IMG/OC-GUI.png)
+
+***`OpenCore`  OC目前版本0.6.7，基于[Acidanthera](https://github.com/acidanthera)官方[Release](https://github.com/acidanthera/OpenCorePkg/releases)，理论上在每月初官方版本OC新发布后，会在一周内跟进更新。***
 
 - `EFI-iGPU` 在机器只使用核显进行视频输出时使用。
 
@@ -35,7 +37,7 @@
 
 - **注：**
 
-  - **`新版OC 0.6.5已经支持安装最新版macOS Big Sur。`**
+  - **`新版OC 0.6.7已经完全支持安装最新版macOS Big Sur。`**
 
   - **编辑config.plist时推荐使用[`ProperTree`](https://github.com/corpnewt/ProperTree)。** Xcode在编辑DATA类型时会有问题；OpenCore Configurator更新不及时且不时会有BUG，可能会损换文件结构；不推荐使用。
 
@@ -126,9 +128,9 @@
 ## 鸣谢
 
 - 感谢[Apple](https://www.apple.com/cn/)的macOS
-- 感谢 [Acidanthera](https://github.com/acidanthera) 提供 [AppleALC](https://github.com/acidanthera/AppleALC)，[Lilu](https://github.com/acidanthera/Lilu)，[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。
-- 感谢 [daliansky](https://github.com/daliansky) 提供[Apple macOS 镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
-- 感谢[corpnewt](https://github.com/corpnewt)提供[gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
+- 感谢 [Acidanthera](https://github.com/acidanthera) 的 [AppleALC](https://github.com/acidanthera/AppleALC)，[Lilu](https://github.com/acidanthera/Lilu)，[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)，[VirtualSMC](https://github.com/acidanthera/VirtualSMC)，和 [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。
+- 感谢 [daliansky](https://github.com/daliansky) 的 [Apple macOS 镜像下载](https://blog.daliansky.net/categories/下载/镜像/)。
+- 感谢[corpnewt](https://github.com/corpnewt) 的 [gibMacOS](https://github.com/corpnewt/gibMacOS)和[ProperTree](https://github.com/corpnewt/ProperTree)
 - 感谢[MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 
 ## 注：

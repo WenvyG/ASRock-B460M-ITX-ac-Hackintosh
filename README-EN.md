@@ -15,19 +15,21 @@
 |      SSD       |                        Samsung 970EVO                        |
 |    Graphics    |          AMD Radeon RX570 / Intel UHD Graphics 630           |
 |    Monitor     |                    ViewSonic VX2478-4K-HD                    |
-|     Audio      |                Realtek ALC887  AppleALC ID=21                |
+|     Audio      |                Realtek ALC887  AppleALC ID=12                |
 | Wireless Card  |                         BCM94360CS2                          |
 |      Case      |                         METALFISH S3                         |
 
 ## Overview
 
-![1](IMG/MAC.png)
+![OVERVIEW](IMG/MAC.png)
 
-<img src="IMG/USB.png" alt="USB" style="zoom: 33%;" />
+![USB](IMG/USB.png)
 
 ![Audio](IMG/Audio.png)
 
-***`OpenCore`   OpenCore' s version is 0.6.5, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update to the latest version of OC in a week after it is released.***
+![OC-GUI](IMG/OC-GUI.png)
+
+***`OpenCore`   OpenCore' s version is 0.6.7, It's base on the [Acidanthera](https://github.com/acidanthera)'s offical [Release](https://github.com/acidanthera/OpenCorePkg/releases), theoretically I will update to the latest version of OC in a week after it is released.***
 
 - `EFI-iGPU` used when the Desktop iGPU is used to drive a display.
 
@@ -38,10 +40,9 @@
   - If you are using Navi core RX5000 series graphics CARDS (such as RX5700(XT), RX5600(XT), RX5500(XT)), you need to include the **agdpmod=pikera** parameter under `NVRAM`-- `Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args` to prevent the screen from going black during boot.
 
 - **PS.** 
-
-  - `OC 0.6.5 now is support to install macOS Big Sur to your disk, it's a good news for Hackintosh. Enjoy it!`
-
-  - I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.
+- **`OC 0.6.7 now is support to install macOS Big Sur to your disk completely, it's a good news for Hackintosh. Enjoy it!`**
+  
+- **I prefer to use [`ProperTree`](https://github.com/corpnewt/ProperTree) when you are editing config.plist.**
 
 
 
