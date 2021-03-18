@@ -21,11 +21,11 @@
 
 ## Overview
 
-![OVERVIEW](IMG/MAC.png)
+![OVERVIEW](IMG/MAC-EN.png)
 
-![USB](IMG/USB.png)
+![USB](IMG/USB-EN.png)
 
-![Audio](IMG/Audio.png)
+![Audio](IMG/Audio-EN.png)
 
 ![OC-GUI](IMG/OC-GUI.png)
 
