@@ -1,3 +1,7 @@
+*`Since I have upgraded to the Mac mini with M1 chip and sold all the hardware such as the motherboard, I have no way to test the working conditions of the new version of OC bootloader . So this Repository is archived.`* **sincerely sorry**.
+
+So I still recommend starring  [Asrock-B460m-ITX-AC-OC-EFI](https://github.com/ansonliao/Asrock-B460m-ITX) from [@ansonliao](https://github.com/ansonliao) to get new updates.
+
 # ASRock-B460M-ITX-ac-Hackintosh
 
 # [中文版](README.md)｜English

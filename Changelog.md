@@ -140,3 +140,10 @@ VirtualSMC  1.1.1 ---> 1.2.2
 NVMeFix 1.0.5 ---> 1.0.6
 
 更新OC GUI 样式
+
+
+
+# 2021.04.20
+
+I’m sorry to inform you that this project has stopped maintenance and and the Repository is archived.
+

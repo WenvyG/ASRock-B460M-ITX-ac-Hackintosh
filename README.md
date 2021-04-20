@@ -1,3 +1,7 @@
+***`由于目前本人已经升级到了M1 的 Mac mini，而硬件也在闲鱼出了二手，所以没有办法测试新版OC的工作情况。本仓库归档，抱歉`***
+
+推荐从[@ansonliao](https://github.com/ansonliao)的[Asrock-B460m-ITX-AC-OC-EFI](https://github.com/ansonliao/Asrock-B460m-ITX-AC-OC-EFI) 获取新版的EFI更新。
+
 # 华擎-B460M-ITX-ac-Hackintosh
 
 # 中文版｜[English]( README-EN.md)
